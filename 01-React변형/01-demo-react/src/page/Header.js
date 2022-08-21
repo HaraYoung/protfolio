@@ -12,7 +12,6 @@ header {
     height:800px;
     
     }
-
     .img-1-text {
     position: absolute;
     left: 20px;

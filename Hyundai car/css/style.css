@@ -308,12 +308,12 @@ footer .footer-icon p {
   margin-top: -5px;
   opacity: 0.8;
 }
+footer .address {
+    width: 60%;
+    color: #cfc8c2;
+    font-size: 14px;
+    padding: 3em 0;
+}
 .footer-icon a img:hover {
   opacity: 1;
-}
-footer .address {
-  width: 60%;
-  color: #cfc8c2;
-  font-size: 14px;
-  padding: 3em 0;
 }

@@ -1,0 +1,154 @@
+.navbar-brand {
+  color: #ad9377;
+  margin: 1em;
+}
+.navbar-brand:hover {
+  color: #565e64;
+}
+.search-i {
+  margin: 15px;
+  color: #555;
+}
+.search-i:hover {
+  color: #ad9377;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  padding: 50px 50px;
+}
+
+.sub-nav {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 250px;
+  max-width: 1333px;
+  width: 80%;
+}
+.sub-item {
+  padding-right: 20px;
+  font-size: 13px;
+  color: #555;
+}
+.card-item {
+  width: 965px;
+  padding-top: 50px;
+  padding-left: 300px;
+}
+.nav-link {
+  color: #555;
+  font-size: 13px;
+  line-height: 60px;
+}
+.nav-link:hover {
+  color: #ad9377;
+}
+.main {
+  width: 1170px;
+  margin: 200px;
+}
+.btn-primary {
+  color: #aaa;
+  background-color: white;
+  border-color: white;
+}
+.btn-primary:hover {
+  color: black;
+  background-color: white;
+  border-color: white;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #aaa;
+  margin-top: 15px;
+}
+
+.card-event:hover {
+  opacity: 0.5;
+}
+
+.footer-box {
+  width: 90%;
+  margin-right: 15px;
+}
+.footer-titel {
+  font-size: 13px;
+  color: #555;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+.footer-text {
+  font-size: 12px;
+  color: #aaa;
+  margin-bottom: 15px;
+}
+.btn-outline-dark {
+  color: white;
+  background-color: #ad9377;
+  border: 1px solid #ad9377;
+}
+.btn-outline-light {
+  color: #aaa;
+  border: 1px solid #aaa;
+}
+.btn-secondary {
+  color: #aaa;
+  background-color: white;
+  border: 1px solid #aaa;
+}
+.btn-secondary:focus {
+  color: #aaa;
+  background-color: white;
+  border-color: #565e64;
+  box-shadow: 0 0 0 0.25rem rgb(130 138 145 / 50%);
+}
+
+.btn-secondary:hover {
+  color: #aaa;
+  background-color: white;
+  border: 1px solid #aaa;
+}
+a {
+  text-decoration: none;
+  color: #aaa;
+}
+.second-line {
+  margin: 1em;
+  font-size: 13px;
+}
+
+.second-line a:hover {
+  color: black;
+}
+
+.look {
+  padding-left: 10px;
+  color: #aaa;
+  font-size: 11px;
+}
+
+.inst-i {
+  margin-right: 10px;
+}
+.icon {
+  color: #aaa;
+}
+.icon a:hover {
+  color: black;
+}
+
+.sm-img {
+  padding: 5px 5px;
+}
+
+@media screen and (max-width: 48rem) {
+  footer {
+    text-align: center;
+  }
+  .card {
+    margin: 15px;
+    width: 80%;;
+  }
+}

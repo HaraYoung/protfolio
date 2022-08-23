@@ -1,0 +1,147 @@
+body {
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  color: white;
+  margin: 0px;
+}
+.navber {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav-items {
+  padding: 28px 17px;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #1ed760;
+}
+nav {
+  background-color: black;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+main {
+  background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+  height: 968px;
+  background-color: rgb(41, 65, 171);
+  background-size: 175%;
+  background-position: 46% 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-text {
+  font-size: 146px;
+  line-height: 166px;
+  color: #1ed760;
+  font-weight: 900;
+  position: relative;
+  left: 225px;
+  padding-bottom: 40px;
+}
+.text-area {
+  position: relative;
+  left: -2.5em;
+}
+.sub-text {
+  color: #1ed760;
+  font-size: 18px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.btn-area {
+  text-align: center;
+}
+.button-items {
+  padding: 15px 40px;
+  border-radius: 500px;
+  background-color: #1ed760;
+  color: blue;
+  font-size: inherit;
+  font-weight: 700;
+  border: none;
+}
+.btn-area:hover {
+  transform: scale(1.1);
+}
+footer {
+  background-color: black;
+  height: 100%;
+}
+.container {
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  max-width: 1170px;
+}
+
+.footbar-menu {
+  display: flex;
+  justify-content: space-between;
+  height: 346px;
+}
+.first-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 15px;
+}
+.menu-title {
+  color: #919496;
+  font-weight: 900;
+  margin: 20px 0px;
+}
+
+.mene-text {
+  padding-bottom: 15px;
+  padding-top: 3px;
+  font-size: 16px;
+}
+.second-box {
+  display: flex;
+  justify-content: flex-end;
+}
+.icon-box {
+  width: 54px;
+  height: 54px;
+  background-color: #222322;
+  border-radius: 50%;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.endbar {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 2em;
+}
+.endbar .link-area {
+  display: flex;
+  justify-content: space-between;
+}
+.endbar a,
+.endbar span {
+  color: #919496;
+  font-size: 14px;
+}
+.endbar .last-letter {
+  font-size: 11px;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 0.5em;
+}

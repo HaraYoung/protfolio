@@ -129,8 +129,9 @@ ul {
 /*main -2*/
 .main-part2 {
   display: flex;
-  width: 100%;
+  width: 80%;
   justify-content: center;
+  margin:auto;
 }
 .part2-area a {
   text-decoration: none;
@@ -154,16 +155,16 @@ ul {
 
 /*이미지 간격 맞추기*/
 .main-part2 .s-area {
-  width: 14%;
+  width: 21.5%;
 }
 .main-part2 .s-second {
-  margin: 0 1em;
+    margin: 0 1em;
 }
 .main-part2 .m-area {
-  width: 19%;
+    width: 29.5%;
 }
 .main-part2 .l-area {
-  width: 24%;
+  width: 37%;
 }
 
 /*country*/

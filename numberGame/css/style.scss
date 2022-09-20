@@ -1,0 +1,107 @@
+html,
+body, h1 {
+  padding: 0;
+  margin: 0;
+  font-family: "Yeon Sung", cursive;
+}
+
+//버튼 틀 정의
+@mixin btn{
+    width: 5em;
+    height: 3em;
+    border-radius: 100%;
+    font-size: 1.5em;
+    font-weight: bolder;
+    cursor: pointer;
+}
+@mixin btnColor($back, $border, $color){
+    background-color: $back;
+    border: 3px solid $border;
+    color: $color
+
+}
+
+.container {
+    height: 100vh;
+    background: url(https://newsimg.sedaily.com/2019/04/24/1VHZOE7VY1_4.jpg) repeat-x center;
+    display: flex;
+    justify-content: center;
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        background-color: rgba(255, 255, 255, 0.57);
+        border: 5px solid black;
+        border-radius: 15px;
+        text-align: center;
+        h1{
+            display: inline-block;
+            margin-top: 1em;
+            padding: 0 1em 0 1em;
+            text-align: center;
+            border : 6px dotted green;
+            background-color: black;
+            color:white
+        }
+        .answer{
+            font-size: 2em;
+            padding: 0 0.5em;
+            color:red;
+            margin: 1em;
+        }
+        input{
+            width: 20em;
+            height: 3em;
+            text-align: center;
+            background-color: black;
+            border: 5px solid green;
+            border-radius: 3em;
+            color: white;
+            font-size: 18px;
+            font-weight: bolder;
+        }
+        .playBtn{
+            @include btn;
+            @include btnColor(rgb(0, 146, 63),green, white);
+            &:hover{
+            @include btnColor(greenyellow,rgb(0, 146, 63), black);
+
+            }
+        }
+        .resetBtn{
+            @include btn;
+            @include btnColor(yellow,rgb(217, 170, 2), black);
+            margin: 1em;
+            &:hover{
+            @include btnColor(rgb(217, 170, 2),yellow, white);
+            }
+        }
+        .chanceArea{
+            padding-top: 1em;
+            font-size: 1.5em;
+        }
+        //up일 경우
+        .up{
+            background-color: blue;
+            color: white;
+            border-radius: 10px;
+        }
+        //down일 경우
+        .down{
+            background-color: rgb(183, 0, 255);
+            color: white;
+            border-radius: 10px;
+        }
+        //정답일 경우
+        .good{
+            background-color: rgba(255, 255, 0, 0.815);
+            color: black;
+            border-radius: 10px;
+        }
+        //hover 삭제 class
+        .nonHover{
+            pointer-events: none;
+        }
+    }
+}

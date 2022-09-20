@@ -42,9 +42,15 @@
 .nav-link:hover {
   color: #ad9377;
 }
-.main {
-  width: 1170px;
+main {
+  width: 100%;
   margin: 200px;
+}
+.card{
+  margin: 0 1em;
+}
+.row{
+  justify-content: center;
 }
 .btn-primary {
   color: #aaa;

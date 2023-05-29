@@ -27,7 +27,7 @@ a {
   box-shadow: 0 3px 4px -2px #292929;
   font: bold 50px;
   letter-spacing: 5px;
-  z-index: 10;
+  z-index: 9999;
 }
 .nav a {
   float: left;
@@ -48,102 +48,129 @@ a {
 .nav a:hover {
   background-color: rgba(128, 128, 128, 0.623);
 }
-
-header {
-  width: 1600px;
-  height: auto;
-}
-.img1 {
+.container {
   width: 80%;
-  position: relative;
-}
-.bigbox {
-  width: 80%;
-  height: auto;
   margin: auto;
 }
+
 .imginbox {
+  width: 100%;
+}
+
+.imginbox div {
   position: relative;
+  margin: auto;
+}
+
+.img1 {
+  display: inline-block;
+  margin: auto;
+  max-width: 100%;
 }
 .img-1-text {
   position: absolute;
-  left: 20px;
-  bottom: 20px;
-  font: 36px lighter;
-  color: grey;
+  left: 2%;
+  bottom: 2%;
+  font: 2.1em lighter;
+  color: rgb(104, 103, 103);
+}
+.border {
+  border-top: 1px solid #c9c9c96e;
+  width: 80%;
+  margin: auto;
 }
 .about {
   max-height: 1100px;
-  margin: 100px 0;
+  padding: 64px 2em;
+  display: flex;
+  justify-content: center;
 }
-
-.about .img2box {
-  height: 600px;
-  width: auto;
+.img2-box {
+  padding: 2em;
 }
 .img2 {
-  float: left;
+  max-width: 100%;
   width: 500px;
   height: auto;
+  opacity: 0.7;
 }
 .about .img2-text {
-  float: left;
-  width: 500px;
+  padding: 0 1em;
+  height: auto;
+  width: 33%;
   text-align: left;
-  padding-left: 100px;
 }
-h1 {
+.img2-text h1 {
   font-weight: 400;
+  text-align: center;
+  font-size: 36px;
 }
 .img2-text h4 {
+  text-align: center;
   font-weight: 400;
   font-size: 1em;
+  margin-top: 0;
 }
 .img2-text p {
   font-size: 19px;
   letter-spacing: 2px;
+  font-size: 17px;
+  line-height: 1.4;
+}
+.img2-text p:last-child {
+  opacity: 0.7;
 }
 .img2-text p span {
   background-color: rgb(202, 202, 202);
   padding: 2px;
 }
-.about::after {
-  content: "";
-  float: none;
-  clear: both;
-  display: block;
-}
+
 #menu {
-  margin: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  margin: 2em 0;
 }
 #menu .menu-text {
-  float: left;
+  padding: 2em;
+  padding-top: 0;
 }
 .menu-img {
-  float: right;
+  margin-left: 1em;
+  opacity: 0.7;
+}
+.menu-img img {
+  max-width: 100%;
 }
 #menu h4 {
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 500;
+}
+#menu h1 {
+  font-weight: 500;
 }
 #menu p {
   color: grey;
 }
-#menu::after {
-  content: "";
-  float: none;
-  clear: both;
-  display: block;
-}
 
 footer {
-  margin: 100px 0;
+  padding: 4em 0;
+  width: 80%;
+  margin: auto;
   display: block;
 }
 .footer-text {
   font-size: 18px;
 }
+.footer-text h1 {
+  font-weight: 400;
+}
 .footer-text b {
-  color: rgb(105, 162, 185);
+  color: #607d8b;
+}
+.footer-text p {
+  font-size: 15px;
 }
 
 form input {
